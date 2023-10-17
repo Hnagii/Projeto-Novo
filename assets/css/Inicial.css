@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mohave", sans-serif;
+}
+header{
+    min-height: 600px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.bg-gradiente{
+    min-height: 500px;
+    background: #0000;
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.header-border{
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+.menu ul li{
+    min-width: 100px;
+    line-height: 28px;
+}
+.menu ul li a {
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px;}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
